@@ -1,0 +1,90 @@
+1) What is GIT?
+ANS: Git is an open source distributed version control system and source code management (SCM) system with an insistence to control small and large projects with speed and efficiency.
+
+2) Which language is used in Git?
+ANS: Git uses 'C' language. Git is quick, and 'C' language makes this possible by decreasing the overhead of run times contained with high-level languages.
+
+3) What are the advantages of using GIT?
+ANS: Here are some of the essential advantages of Git:
+
+	Data repetition and data replication is possible.
+	It is a much applicable service.
+	For one depository you can have only one directory of Git.
+	The network performance and disk application are excellent.
+	It is effortless to collaborate on any project.
+	You can work on any plan within the Git.
+
+4) What is the function of 'GIT PUSH' in GIT?
+ANS: 'GIT PUSH' updates remote refs along with related objects.
+
+5) Why do we require branching in GIT?
+ANS: With the help of branching, you can keep your branch, and you can also jump between the different branches. You can go to your past work while at the same time keeping your recent work intact.
+
+6) What is the purpose of 'git config'?
+ANS: The 'Git config' is a great method to configure your choice for the Git installation. Using this command, you can describe the repository behavior, preferences, and user information.
+
+7) What is the definition of "Index" or "Staging Area" in GIT?
+ANS: When you are making the commits, you can make innovation to it, format it and review it in the common area known as 'Staging Area' or 'Index'.
+
+8) What is a 'conflict' in git?
+ANS: A 'conflict' appears when the commit that has to be combined has some change in one place, and the current act also has a change at the same place. Git will not be easy to predict which change should take precedence.
+
+9) What is the difference between git pull and git fetch?
+ANS: Git pull command pulls innovation or commits from a specific branch from your central repository and updates your object branch in your local repository.
+
+	Git fetch is also used for the same objective, but it works in a slightly different method. When you behave a git fetch, it pulls all new commits from the desired branch and saves it in a new branch in your local repository. If you need to reflect these changes in your target branch, git fetch should be followed with a git merge. Your target branch will only be restored after combining the target branch and fetched branch. To make it simple for you, remember the equation below:
+
+	Git pull = git fetch + git merge
+
+10) What is the purpose of the git clone?
+ANS: The git clone command generates a copy of a current Git repository. To get the copy of a central repository, 'cloning' is the simplest way used by programmers.
+
+11) What does git commit a?
+ANS: Git commits "records changes to the storehouse" while git push " updates remote refs along with contained objects" So the first one is used in a network with your local repository, while the latter one is used to communicate with a remote repository.
+
+12) Explain what is commit message?
+ANS: Commit message is a component of git which shows up when you submit a change. Git gives you a content tool where you can enter the adjustments made to a commit.
+
+13) What is the distinction between Git and Github?
+ANS: A) Git is a correction control framework, a tool to deal with your source code history.
+
+	GitHub is a hosting function for Git storehouses.
+
+	GitHub is a website where you can transfer a duplicate of your Git archive. It is a Git repository hosting service, which offers the majority of the distributed update control and source code management (SCM) usefulness of Git just as including its features.
+
+14) What is a version control system? Mention its types.
+ANS: A version control system (VCS) is a software tool used to create different project versions and store them in a repository. All modifications to the code are recorded and tracked by the VCS.
+
+Types of version control systems: 
+
+	Local version control systems have a database that maintains all the file changes on disk under revision control in a special format.
+	Centralized version control systems contain one repository, and each user gets their own working copy.
+	Distributed version control systems contain multiple repositories, each accessible to separate users with their own working copy.
+
+15)What is the git push command?
+ANS: The git push command is applied for uploading content to a remote repository from a local repository. Pushing can overwrite changes, so it should be used with caution.
+
+16)What is the git pull command?.
+ANS: The git pull command is for fetching and downloading content from a remote repository and integrating it with a local repository.
+
+17) Explain git checkout in Git.?
+ANS: Git checkout allows for the switching of the HEAD. It can be used to restore the historic versions of files as well. The command operates upon files, commits, and branches.
+
+18) What is the difference between ‘git remote’ and ‘git clone’?
+ANS: Git remote adds a reference to a remote repository for further tracking. Git clone, like its name, clones an existing remote repository and builds a new one.
+
+19) How to identify if a certain branch has been merged into master?
+ANS: Git branch –merged master – shows all branches that are merged into master
+
+	Git branch – merged – shows all branches that are merged into the head
+
+	Git branch – no-merged –shows all the branches that are not merged
+
+20) Why do we need branching in GIT?
+ANS: With the help of branching, we can have our own branch and we can also jump between various branches. We can go to our previous work, at the same time keeping our recent work intact.
+
+21) State a way to create a new branch in Git.
+ANS: If we want to create a new feature into the main branch, then we can use the command ‘git merge’ or ‘git pull’.
+
+22) What is the staging area in Git?
+ANS: Candidates could find this entry among the majority of best Git interview questions. The staging area is an intermediate area that helps in formatting and reviewing commits before their completion. It is also known as an index. The staging area is the first place for verification of every change before committing to the repository. 
